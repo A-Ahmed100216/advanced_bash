@@ -1,7 +1,7 @@
 # Advanced Bash
 This repo will cover some advanced bash commands and their use.
 
-## 1. Head
+## Head
 * Prints the first ten lines of a file. This is by default, the command can be configured to print a specific number of lines.
 ```bash
 head <filename> # Prints the first 10 lines of the file
@@ -16,7 +16,7 @@ head -n 5 <file1> <file2> # Prints the first 5 lines from file1 and file2
 head -c 24 <filename>
 ```
 
-## 2. Tail
+## Tail
 * Opposite of head - prints the last ten lines of a file.
 * Can be configured to print a specific number of lines.
 ```bash
@@ -27,7 +27,7 @@ tail -n 5 <filename> # Prints the last 5 lines of the filename
 ```bash
 tail -q -n 5 <file1> <file2> # Prints the last 5 lines from file1 and file2
 ```
-## 3. Sort
+## Sort
 * Used to sort a file.
 * The syntax is as follows:
 * By default the order is numbers > alphabet > lowercase
@@ -92,3 +92,5 @@ chmod 666 example_file.txt # Gives all users read and write rights
 chmod +x example_file.txt # Gives execute rights
 chmod -w example_file.txt # Takes away write rights
 ```
+
+##
